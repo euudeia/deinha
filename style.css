@@ -51,10 +51,10 @@ h1 {
 .heart-frame img {
     width: 120px;
     height: 120px;
-    border: none; /* Remove a borda */
+    border-radius: 50%;
+    border: 8px solid #ff69b4;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%); /* Formato de coração */
 }
 
 .heart-frame img:hover {
